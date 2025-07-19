@@ -2,7 +2,7 @@ data:extend({
   {
     type = "technology",
     name = "deep-core-lava-extraction",
-    icon = "__Lava_Drill__/graphics/technology/deep-core-lava-extraction.png",
+    icon = "__Lava_Drill__/graphics/deep-core-lava-extraction.png",
     icon_size = 256,
     effects =
     {
@@ -11,7 +11,7 @@ data:extend({
         recipe = "lava-drill"
       }
     },
-    prerequisites = {"steel-processing", "advanced-electronics"},
+    prerequisites = {"steel-processing", "advanced-circuit"},
     unit = {
       count = 500,
       ingredients = {

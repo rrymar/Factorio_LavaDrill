@@ -3,8 +3,8 @@ data:extend({
         type = "recipe",
         name = "ferro-magnetic-separation",
         category = "electromagnetics",
-        energy_required = 1,
-        enabled = true,
+        energy_required = 2,
+        enabled = false,
         ingredients =
         {
             { type = "fluid", name = "lava", amount = 100 },

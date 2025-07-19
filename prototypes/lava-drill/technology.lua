@@ -19,7 +19,7 @@ data:extend({
                 recipe = "magma-ore-separation"
             }
         },
-        prerequisites = { "steel-processing", "advanced-circuit" },
+        prerequisites = { "uranium-processing", "advanced-circuit" },
         unit = {
             count = 500,
             ingredients = {

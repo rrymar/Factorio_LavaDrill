@@ -1,1 +1,1 @@
-When I ask to commit to git, add newly created files to git and then make a commit.
+When I ask to commit to git, add all created files to git and then make a commit.

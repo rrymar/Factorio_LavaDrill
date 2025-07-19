@@ -5,7 +5,7 @@ data:extend
   {
     type = "item",
     name = "lava-drill",
-    icon = "__lava-drill__/graphics/lava-drill-icon.png",
+    icon = "__LavaDrill__/graphics/lava-drill-icon.png",
     subgroup = "smelting-machine",
     order = "d[recycler]",
     inventory_move_sound = item_sounds.metal_large_inventory_move,

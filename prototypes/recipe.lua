@@ -5,10 +5,11 @@ data:extend({
     enabled = false,
     ingredients =
     {
-      {"steel-plate", 10},
-      {"stone-furnace", 5},
-      {"iron-gear-wheel", 10}
+      {"steel-plate", 1000},
+      {"pipe", 1000},
+      {"advanced-circuit", 500},
+      {"iron-gear-wheel", 1000}
     },
-    result = "lava-drill"
+    results = {{type="item", name="lava-drill", amount=1}}
   }
 })

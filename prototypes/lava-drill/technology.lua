@@ -2,7 +2,7 @@ data:extend({
   {
     type = "technology",
     name = "deep-core-lava-extraction",
-    icon = "__LavaDrill__/graphics/deep-core-lava-extraction.png",
+    icon = "__LavaDrill__/graphics/lava-drill-icon.png",
     icon_size = 256,
     effects =
     {

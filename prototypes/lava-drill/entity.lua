@@ -1,6 +1,6 @@
 local lavaDrill = table.deepcopy(data.raw["offshore-pump"]["offshore-pump"])
 lavaDrill.name = "lava-drill"
-lavaDrill.icon = "__LavaDrill__/graphics/lava-drill-icon.png"
+lavaDrill.icon = "__LavaDrill__/graphics/lava-drill/lava-drill-icon.png"
 lavaDrill.icon_size = 64
 lavaDrill.icon_mipmaps = 1
 lavaDrill.corpse = "medium-remnants"
@@ -44,7 +44,7 @@ lavaDrill.graphics_set = {
             layers = {
                 {
                     priority = "high",
-                    filename = "__LavaDrill__/graphics/lava-drill-horsehead.png",
+                    filename = "__LavaDrill__/graphics/lava-drill/lava-drill-horsehead.png",
                     animation_speed = 0.5,
                     scale = 0.5,
                     line_length = 8,

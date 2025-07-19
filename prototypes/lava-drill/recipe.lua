@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "lava-drill",
-        enabled = false,
+        enabled = true,
         ingredients =
         {
             { type = "item", name = "steel-plate", amount = 1000 },

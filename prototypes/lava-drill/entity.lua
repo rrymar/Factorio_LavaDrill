@@ -8,7 +8,7 @@ lavaDrill.dying_explosion = "pumpjack-explosion"
 lavaDrill.flags = { "placeable-neutral", "player-creation" }
 lavaDrill.minable = { mining_time = 1, result = "lava-drill" }
 lavaDrill.fast_replaceable_group = "lava-drill"
-lavaDrill.pumping_speed = 5
+lavaDrill.pumping_speed = 1
 lavaDrill.tile_width = 5
 lavaDrill.tile_height = 5
 lavaDrill.collision_mask = {
@@ -37,7 +37,7 @@ lavaDrill.energy_source = {
     type = "electric",
     usage_priority = "secondary-input"
 }
-lavaDrill.energy_usage = "900kW"
+lavaDrill.energy_usage = "8MW"
 lavaDrill.graphics_set = {
     animation = {
         north = {

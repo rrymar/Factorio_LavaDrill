@@ -13,6 +13,10 @@ data:extend({
             {
                 type = "unlock-recipe",
                 recipe = "lava-cooling"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "magma-ore-separation"
             }
         },
         prerequisites = { "steel-processing", "advanced-circuit" },

@@ -13,7 +13,7 @@ data:extend({
         {
             { type = "item", name = "iron-ore",  amount = 50 },
             { type = "item", name = "stone",     amount = 30 },
-            { type = "item", name = "magma-ore", amount = 20 }
+            { type = "item", name = "depleted-magma-ore", amount = 20 }
         },
         main_product = "iron-ore",
         allow_decomposition = false,

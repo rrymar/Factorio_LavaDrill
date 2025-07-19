@@ -1,0 +1,11 @@
+{
+  "name": "Lava_Drill",
+  "version": "0.1.0",
+  "title": "Lava Drill",
+  "author": "Ruslan Rymar",
+  "contact": "",
+  "homepage": "",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1"],
+  "description": "A mod that adds a drill to extract lava."
+}

@@ -14,3 +14,6 @@ require("prototypes.depleted-magma-ore.separation-recipe")
 
 require("prototypes.ferro-magnetic-separation.recipe")
 require("prototypes.ferro-magnetic-separation.technology")
+
+require("prototypes.reset-planet-requirements.recipe")
+require("prototypes.reset-planet-requirements.stack-inserter")

@@ -7,13 +7,40 @@ data:extend({
         enabled = false,
         ingredients =
         {
-            { type = "item", name = "depleted-magma-ore", amount = 20 }
+            { type = "item", name = "depleted-magma-ore", amount = 30 }
         },
         results =
         {
-            { type = "item", name = "copper-ore", amount = 4 },
-            { type = "item", name = "uranium-ore", amount = 1 },
-            { type = "item", name = "stone", amount = 15 },
+            {
+                type = "item",
+                name = "copper-ore",
+                amount = 8,
+                probability = 0.86,
+            },
+            {
+                type = "item",
+                name = "uranium-ore",
+                amount = 2,
+                probability = 0.86,
+            },
+            {
+                type = "item",
+                name = "stone",
+                amount = 20,
+                probability = 0.86,
+            },
+            {
+                type = "item",
+                name = "holmium-ore",
+                amount = 1,
+                probability = 0.02,
+            },
+            {
+                type = "item",
+                name = "lithium",
+                amount = 1,
+                probability = 0.02,
+            },
         },
         main_product = "copper-ore",
         allow_decomposition = false,

@@ -11,10 +11,42 @@ data:extend({
         },
         results =
         {
-            { type = "item", name = "iron-ore", amount = 10 },
-            { type = "item", name = "copper-ore", amount = 4 },
-            { type = "item", name = "uranium-ore", amount = 1 },
-            { type = "item", name = "stone", amount = 10 },
+            {
+                type = "item",
+                name = "iron-ore",
+                amount = 10,
+                probability = 0.86,
+            },
+            {
+                type = "item",
+                name = "copper-ore",
+                amount = 4,
+                probability = 0.86,
+            },
+            {
+                type = "item",
+                name = "uranium-ore",
+                amount = 1,
+                probability = 0.86,
+            },
+            {
+                type = "item",
+                name = "stone",
+                amount = 10,
+                probability = 0.86,
+            },
+            {
+                type = "item",
+                name = "holmium-ore",
+                amount = 1,
+                probability = 0.02,
+            },
+            {
+                type = "item",
+                name = "lithium",
+                amount = 1,
+                probability = 0.02,
+            },
         },
         main_product = "iron-ore",
         allow_decomposition = false,

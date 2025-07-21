@@ -1,8 +1,8 @@
-local t = data.raw.recipe["stack-inserter"].ingredients
-if t ~= nil then
-    for i = #t, 1, -1 do
-        if t[i] ~= nil and t[i].name == "jelly" then
-            table.remove(t, i)
+local stackInserter = data.raw.recipe["stack-inserter"].ingredients
+if stackInserter ~= nil then
+    for i = #stackInserter, 1, -1 do
+        if stackInserter[i] ~= nil and stackInserter[i].name == "jelly" then
+            table.remove(stackInserter, i)
         end
     end
 end

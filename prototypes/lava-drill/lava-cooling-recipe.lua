@@ -8,11 +8,11 @@ data:extend({
         ingredients =
         {
             { type = "fluid", name = "lava", amount = 50 },
-            { type = "fluid", name = "water", amount = 100 },
+            { type = "fluid", name = "water", amount = 50 },
         },
         results =
         {
-            { type = "item", name = "magma-ore", amount = 50 },
+            { type = "item", name = "magma-ore", amount = 100 },
             { type = "fluid", name = "steam", amount = 10000, temperature = 500 }
         },
         main_product = "magma-ore",

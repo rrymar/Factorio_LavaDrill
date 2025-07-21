@@ -17,6 +17,30 @@ data:extend({
             {
                 type = "unlock-recipe",
                 recipe = "magma-ore-separation"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "stack-inserter"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "metallurgic-science-pack"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "electromagnetic-science-pack"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "cryogenic-science-pack"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "carbon-fiber"
+            },
+            {
+                type = "unlock-recipe",
+                recipe = "tungsten-carbide"
             }
         },
         prerequisites = { "uranium-processing", "advanced-circuit" },
